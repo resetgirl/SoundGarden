@@ -38,6 +38,7 @@ section.full{
 
 article.evento {
     width: 350px;
+    height: 350px;
 }
 
 footer nav ul{
@@ -47,4 +48,10 @@ footer nav ul{
 
 footer nav ul li  {
     padding: 10px;
+}
+
+#img_banner {
+    display: block;
+    max-height: 800px;
+    padding-top: 0;
 }
