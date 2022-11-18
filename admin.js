@@ -24,9 +24,9 @@ async function getEventos(){
             <td>${eventos[i].name}</td>
             <td>${eventos[i].attractions}</td>
             <td>
-                <a href="reservas.html" class="btn btn-dark">ver reservas</a>
-                <a href="editar-evento.html?id=${eventos[i]._id}" id= "edit-event" class="btn btn-secondary">editar</a>
-                <a href="excluir-evento.html?id=${eventos[i]._id}" class="btn btn-danger">excluir</a>
+                <a href="./reservas.html" class="btn btn-dark">ver reservas</a>
+                <a href="./editar-evento.html?id=${eventos[i]._id}" id= "edit-event" class="btn btn-secondary">editar</a>
+                <a href="./excluir-evento.html?id=${eventos[i]._id}" class="btn btn-danger">excluir</a>
             </td>
         </tr>`
 
