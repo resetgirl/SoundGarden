@@ -50,8 +50,24 @@ footer nav ul li  {
     padding: 10px;
 }
 
+/* ---------- CSS BANNER ROTATIVO ---------- */
+
+section.full banner_rotativo{
+    height: 400px;
+    position: absolute;
+}
+
+#container p {
+    max-width: 100ch;
+    overflow: hidden;
+}
+
+.container p {
+    max-width: 100ch;
+    overflow: hidden;
+}
+
 #img_banner {
-    display: block;
-    max-height: 800px;
-    padding-top: 0;
+    margin: 0 auto;
+    width: 80%;
 }
