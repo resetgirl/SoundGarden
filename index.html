@@ -104,7 +104,40 @@
             </nav>
         </div>
     </footer>
+     <!-- Modal -->
+  <div class="modal" id="MyModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reserve seus ingressos!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+       <div class="modal-body">
+        <div class="modal-body mx-3">
+          <div class="md-form mb-2">
+            <i class="fas fa-user prefix grey-text"></i>
+            <label data-error="wrong" data-success="right" for="form3">Nome</label>
+            <input type="text" id="owner_name" class="form-control validate">
+            
+          </div>
+  
+          <div class="md-form mb-2">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <label data-error="wrong" data-success="right" for="form2">Email</label>
+            <input type="email" id="owner_email" class="form-control validate">
+            
+          </div>
+
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+    <button type="submit" class="btn btn-primary" id = "reserve">Reservar!</button>
+  </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./reservaModal.js"></script>
     <script src="./index.js"></script>
 
 </html>

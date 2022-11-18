@@ -37,7 +37,7 @@ async function getEventos() {
             <h2>${eventos[i].name}</h2>
             <h4>${eventos[i].attractions}</h4>
             <p>${eventos[i].description}</p>
-            <a href="reservas.html?id=${eventos[i]._id}" class="btn btn-primary">reservar ingresso</a>
+            <a class="btn btn-primary" onclick="openModal('${eventos[i]._id}')">reservar ingresso</a>
         </article>`
 
         EventoCaixa.innerHTML += eventoTable;
